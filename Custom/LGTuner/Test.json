@@ -7,12 +7,12 @@
     ],
     "ZoneOverrides": [
       {
-          "LocalIndex": 2, //Local Index for zone
-          "OverrideGeomorphs": false, //Override Geomorphs?
+          "LocalIndex": 1, //Local Index for zone
+          "OverrideGeomorphs": true, //Override Geomorphs?
           "Geomorphs": [
             //first
             {
-              "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_HSU_exit_01.prefab",
+              "Geomorph": "Assets/AssetPrefabs/Complex/Service/Geomorphs/Gardens/geo_64x64_service_gardens_I_01.prefab",
               "Direction": "Forward" //Unchanged, Random, Forward, Backward, Left, Right 
             }
             //second

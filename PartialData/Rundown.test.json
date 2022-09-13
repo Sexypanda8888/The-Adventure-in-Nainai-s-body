@@ -311,6 +311,17 @@
                 "DataBlockId": "Obj-Test-2",
                 "WinCondition": 0,
                 "ZonePlacementDatas": [
+                    [
+                        {
+                          "DimensionIndex": 0,
+                          "LocalIndex": 1,
+                          "Weights": {
+                            "Start": 0.0,
+                            "Middle": 0.0,
+                            "End": 0.0
+                          }
+                        }
+                      ]
                 ]
               },
               "ChainedObjectiveData": [],
