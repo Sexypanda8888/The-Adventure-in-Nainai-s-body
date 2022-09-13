@@ -1,0 +1,169 @@
+[
+
+  {
+    "Type": 1,
+    "Difficulty": 50,
+    "SpawnPlacementType": 1,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-1",
+    "internalEnabled": true,
+    "persistentID": "Spot-1",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 51,
+    "SpawnPlacementType": 2,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-2",
+    "internalEnabled": true,
+    "persistentID": "Spot-2",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 52,
+    "SpawnPlacementType": 3,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-3",
+    "internalEnabled": true,
+    "persistentID": "Spot-3",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 53,
+    "SpawnPlacementType": 4,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-4",
+    "internalEnabled": true,
+    "persistentID": "Spot-4",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 54,
+    "SpawnPlacementType": 5,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-5",
+    "internalEnabled": true,
+    "persistentID": "Spot-5",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 55,
+    "SpawnPlacementType": 6,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "Spot-6",
+    "internalEnabled": true,
+    "persistentID": "Spot-6",
+    "datablock":"EnemyGroup"
+  },
+  {
+    "Type": 1,
+    "Difficulty": 80,
+    "SpawnPlacementType": 1,
+    "MaxScore": 5.0,
+    "ScoreInAreaPaddingMulti": 1.0,
+    "RelativeWeight": 1.0,
+    "Roles": [
+      {
+        "Role": 1,
+        "Distribution": 1
+      }
+    ],
+    "name": "tank",
+    "internalEnabled": true,
+    "persistentID": "Tank-single",
+    "datablock":"EnemyGroup"
+  }
+]
+//在layout里面复制下面的代码就可以测试出一个地方所有的怪物
+/*
+{
+    "GroupType": 0,
+    "Difficulty": 50,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+},
+{
+    "GroupType": 0,
+    "Difficulty": 51,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+},
+{
+    "GroupType": 0,
+    "Difficulty": 52,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+},
+{
+    "GroupType": 0,
+    "Difficulty": 53,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+},
+{
+    "GroupType": 0,
+    "Difficulty": 54,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+},
+{
+    "GroupType": 0,
+    "Difficulty": 55,
+    "Distribution": 1,
+    "DistributionValue": 0.6
+}
+
+*/

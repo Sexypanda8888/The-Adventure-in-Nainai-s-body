@@ -1,0 +1,67 @@
+{
+    "LevelLayoutID": "Layout-T1-L1", //Layout PersistentID
+    "ExtraComplexResourceToLoad": [ //Load "Extra" Complex Shard so you could use it on this config file! (Yes multi-complex type in same level is allowed)
+      "Tech",
+      "Mining",
+      "Service"
+    ],
+    "ZoneOverrides": [
+      {
+          "LocalIndex": 3, //Local Index for zone
+          "OverrideGeomorphs": true, //Override Geomorphs?
+          "Geomorphs": [
+            //first
+            {
+              "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_portal_HA_01.prefab",
+              "Direction": "Forward" //Unchanged, Random, Forward, Backward, Left, Right 
+            }
+            //second
+            // {
+            //   "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+            //   "Direction": "Random" //Unchanged, Random, Forward, Backward, Left, Right 
+            // }
+            //if still needed, it will return to first one and repeat...
+          ],
+          "OverridePlugs": false, //Override Plug transition?
+          "Plugs": [
+          ],
+          "OverrideAltitudes": true, //Override Altitude?
+          "Altitudes": [
+              0
+          ],
+          "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
+          "PlugWithNoGatechance": 1.0
+        },
+        {
+            "LocalIndex": 4, //Local Index for zone
+            "OverrideGeomorphs": true, //Override Geomorphs?
+            "Geomorphs": [
+              //first
+              {
+                "Geomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_destroyed_HA_01.prefab",
+                "Direction": "Forward" //Unchanged, Random, Forward, Backward, Left, Right 
+              }
+            //   {
+            //     "Geomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_02.prefab",
+            //     "Direction": "Forward"
+            //   }
+              //second
+              // {
+              //   "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+              //   "Direction": "Random" //Unchanged, Random, Forward, Backward, Left, Right 
+              // }
+              //if still needed, it will return to first one and repeat...
+            ],
+            "OverridePlugs": false, //Override Plug transition?
+            "Plugs": [
+            ],
+            "OverrideAltitudes": true, //Override Altitude?
+            "Altitudes": [
+                0
+            ],
+            "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
+            "PlugWithNoGatechance": 1.0
+        }
+      
+    ]
+  }

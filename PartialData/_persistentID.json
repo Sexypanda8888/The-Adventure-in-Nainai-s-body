@@ -1,0 +1,19 @@
+[
+	//AUTO-GENERATED PERSISTENT ID LIST
+	{ "GUID": "Spot-1", "ID": 65535 },
+	{ "GUID": "Spot-2", "ID": 65534 },
+	{ "GUID": "Spot-3", "ID": 65533 },
+	{ "GUID": "Spot-4", "ID": 65532 },
+	{ "GUID": "Spot-5", "ID": 65531 },
+	{ "GUID": "Spot-6", "ID": 65530 },
+	{ "GUID": "Tank-single", "ID": 65529 },
+	{ "GUID": "Layout-T1-DM1", "ID": 65535 },
+	{ "GUID": "Layout-T1-L1", "ID": 65534 },
+	{ "GUID": "Layout-Test", "ID": 65533 },
+	{ "GUID": "Obj-Empty", "ID": 65535 },
+	{ "GUID": "Obj-T1-L1", "ID": 65534 },
+	{ "GUID": "Obj-Test", "ID": 65533 },
+	{ "GUID": "Obj-Test-2", "ID": 65532 },
+	{ "GUID": "STP", "ID": 65535 },
+	{ "GUID": "DefaultPop", "ID": 65534 }
+]

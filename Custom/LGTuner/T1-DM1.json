@@ -1,0 +1,80 @@
+{
+  "LevelLayoutID": "Layout-T1-DM1", //Layout PersistentID
+  "ExtraComplexResourceToLoad": [ //Load "Extra" Complex Shard so you could use it on this config file! (Yes multi-complex type in same level is allowed)
+    "Tech",
+    "Mining",
+    "Service"
+  ],
+  "ZoneOverrides": [
+    {
+        "LocalIndex": 0, //Local Index for zone
+        "OverrideGeomorphs": true, //Override Geomorphs?
+        "Geomorphs": [
+          //first
+          {
+            "Geomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_04.prefab",
+            "Direction": "Backward" //Unchanged, Random, Forward, Backward, Left, Right 
+          }
+          //second
+          // {
+          //   "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+          //   "Direction": "Random" //Unchanged, Random, Forward, Backward, Left, Right 
+          // }
+          //if still needed, it will return to first one and repeat...
+        ],
+        "OverridePlugs": false, //Override Plug transition?
+        "Plugs": [
+        ],
+        "OverrideAltitudes": true, //Override Altitude?
+        "Altitudes": [
+            0
+        ],
+        "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
+        "PlugWithNoGatechance": 1.0
+      },
+    {
+      "LocalIndex": 1, //Local Index for zone
+      "OverrideGeomorphs": true, //Override Geomorphs?
+      "Geomorphs": [
+        //first
+        {
+          "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_HSU_exit_01.prefab",
+          "Direction": "Forward" //Unchanged, Random, Forward, Backward, Left, Right 
+        }
+        //second
+        // {
+        //   "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+        //   "Direction": "Random" //Unchanged, Random, Forward, Backward, Left, Right 
+        // }
+        //if still needed, it will return to first one and repeat...
+      ],
+      "OverridePlugs": false, //Override Plug transition?
+      "Plugs": [
+      ],
+      "OverrideAltitudes": true, //Override Altitude?
+      "Altitudes": [
+          0
+      ],
+      "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
+      "PlugWithNoGatechance": 1.0
+    }
+    
+  ]
+//   //When you want to edit specific tile position instead of editing via zone numbers
+//   "TileOverrides": [
+//     {
+//       "X": 0, //Grid X Position, East-West (0,0 is elevator tile!)
+//       "Z": 1, //Grid Z Position, North-South
+//       "Rotation": "Flip", //None, Flip, MoveTo_Left, MoveTo_Right, Towards_Random, Towards_Forward, Towards_Backward, Towards_Left, Towards_Right
+//       "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_04.prefab", //Geomorph you want to override (empty = don't alter)
+//       "OverrideAltitude": false, //Override Altitude?
+//       "Altitude": 0, //Wanted Altitude for this tile
+//       "ForwardPlug": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab", //South Direction Plug Prefab (empty = don't alter)
+//       "BackwardPlug": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab", //North Direction Plug Prefab
+//       "LeftPlug": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab", //West Direction Plug Prefab
+//       "RightPlug": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_03_with_gate.prefab", //East Direction Plug Prefab
+//       "OverridePlugWithNoGateChance": false, //Override Chance of Plugs out from this tile has "no gate"
+//       "PlugWithNoGateChance": 0.5
+//     }
+//   ]
+}
