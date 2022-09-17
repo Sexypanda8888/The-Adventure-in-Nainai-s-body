@@ -19,6 +19,12 @@
 	{ "GUID": "T1-Target0-Header", "ID": 4294967295 },
 	{ "GUID": "T1-Target0-Detail", "ID": 4294967294 },
 	{ "GUID": "T1-Target1-Header", "ID": 4294967293 },
+	{ "GUID": "T1-Target1-detail", "ID": 4294967292 },
 	{ "GUID": "T1-Target2-Header", "ID": 4294967291 },
-	{ "GUID": "T1-Target2-Detail", "ID": 4294967290 }
+	{ "GUID": "T1-Target2-Detail", "ID": 4294967290 },
+	{ "GUID": "T1-Target3-Header", "ID": 4294967289 },
+	{ "GUID": "T1-Target3-Detail", "ID": 4294967288 },
+	{ "GUID": "Population-T1-1", "ID": 255 },
+	{ "GUID": "Wave-T1-SmallShooterOnly", "ID": 255 },
+	{ "GUID": "2222", "ID": 254 }
 ]

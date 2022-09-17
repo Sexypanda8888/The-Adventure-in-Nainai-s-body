@@ -33,7 +33,7 @@
         "CharacterMetaData": 1,
         "name": "T1找电脑",
         "internalEnabled": true,
-        "persistentID": "T1-Target1-Header",
+        "persistentID": "T1-Target1-detail",
         "datablock": "Text"
     },
     {

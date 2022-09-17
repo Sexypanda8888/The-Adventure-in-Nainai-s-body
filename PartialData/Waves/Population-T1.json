@@ -1,0 +1,13 @@
+[
+    {
+        "WaveRoleWeakling": 11,
+        "WaveRoleStandard": 11,
+        "WaveRoleSpecial": 11,
+        "WaveRoleMiniBoss": 11,
+        "WaveRoleBoss": 11,
+        "name": "第一个警报，小姐+大姐",
+        "internalEnabled": true,
+        "persistentID": "Population-T1-1",
+        "datablock": "SurvivalWavePopulation"
+    }
+]
