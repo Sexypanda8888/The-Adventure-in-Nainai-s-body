@@ -167,7 +167,7 @@
                 "BulkheadDoorControllerPlacements": [],
                 "BulkheadKeyPlacements": [],
                 "ObjectiveData": {
-                    "DataBlockId": "Obj-Empty",
+                    "DataBlockId": "Obj-T1-L1",
                     "WinCondition": 1,
                     "ZonePlacementDatas": []
                 },

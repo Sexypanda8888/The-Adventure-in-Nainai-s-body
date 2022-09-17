@@ -1,0 +1,76 @@
+[
+    //
+    {
+        "SkipLocalization": false,
+        "English": "清扫区域，寻找推进路线",
+        "CharacterMetaData": 1,
+        "name": "T1开场",
+        "internalEnabled": true,
+        "persistentID": "T1-Target0-Header",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "奶奶的身体表面由于其多日沉浸滥交，环境非常复杂，需要先进行清理",
+        "CharacterMetaData": 1,
+        "name": "T1开场",
+        "internalEnabled": true,
+        "persistentID": "T1-Target0-Detail",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "找到奶奶皮炎子的坐标",
+        "CharacterMetaData": 1,
+        "name": "T1找电脑",
+        "internalEnabled": true,
+        "persistentID": "T1-Target1-Header",
+        "datablock": "Text"
+    },    
+    {
+        "SkipLocalization": false,
+        "English": "找到奶奶皮炎子的坐标",
+        "CharacterMetaData": 1,
+        "name": "T1找电脑",
+        "internalEnabled": true,
+        "persistentID": "T1-Target1-Header",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "找到<color=yellow>开塞露</color>",
+        "CharacterMetaData": 1,
+        "name": "T1找开塞露",
+        "internalEnabled": true,
+        "persistentID": "T1-Target2-Header",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "奶奶把自己皮炎子的入口塞得太紧了,我们得找到她珍藏的开塞露，强行突入",
+        "CharacterMetaData": 1,
+        "name": "T1找开塞露",
+        "internalEnabled": true,
+        "persistentID": "T1-Target2-Detail",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "回到<color=yellow>ZONE_XX</color>把<color=yellow>开塞露</color>装进入口",
+        "CharacterMetaData": 1,
+        "name": "T1找开塞露",
+        "internalEnabled": true,
+        "persistentID": "T1-Target3-Header",
+        "datablock": "Text"
+    },
+    {
+        "SkipLocalization": false,
+        "English": "找到<color=yellow>开塞露</color>",
+        "CharacterMetaData": 1,
+        "name": "T1找开塞露",
+        "internalEnabled": true,
+        "persistentID": "T1-Target3-Detail",
+        "datablock": "Text"
+    }
+
+]

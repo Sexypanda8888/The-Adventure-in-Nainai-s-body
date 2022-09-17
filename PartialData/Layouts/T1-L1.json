@@ -124,8 +124,8 @@
                                     "Duration": 0.0,
                                     "ClearDimension": false,
                                     "WardenIntel": "有危险的感觉",
-                                    "CustomSubObjectiveHeader": "活下去",
-                                    "CustomSubObjective": "踩踩在哪里出现",
+                                    "CustomSubObjectiveHeader": "T1-Target0-Header",
+                                    "CustomSubObjective": "T1-Target0-Detail",
                                     "SoundID": 0,
                                     "SoundSubtitle": 0,
                                     "DialogueID": 0,
@@ -256,8 +256,8 @@
                                     "Duration": 0.0,
                                     "ClearDimension": false,
                                     "WardenIntel": "又来了...",
-                                    "CustomSubObjectiveHeader": "活下去",
-                                    "CustomSubObjective": "踩踩在哪里出现",
+                                    "CustomSubObjectiveHeader":0,
+                                    "CustomSubObjective":0,
                                     "SoundID": 0,
                                     "SoundSubtitle": 0,
                                     "DialogueID": 0,
@@ -327,51 +327,8 @@
                                     "Enabled": false,
                                     "TerminalCommand": 0,
                                     "TerminalCommandRule": 0
-                                },
-                                {
-                                    "Type": 11,
-                                    "Condition": {
-                                        "ConditionIndex": -1,
-                                        "IsTrue": false
-                                    },
-                                    "Trigger": 0,
-                                    "ChainPuzzle": 0,
-                                    "UseStaticBioscanPoints": false,
-                                    "Layer": 0,
-                                    "DimensionIndex": 0,
-                                    "LocalIndex": 0,
-                                    "Delay": 2.0,
-                                    "Duration": 0.0,
-                                    "ClearDimension": false,
-                                    "WardenIntel": "快解决他们！",
-                                    "CustomSubObjectiveHeader": "活下去",
-                                    "CustomSubObjective": "踩踩在哪里出现",
-                                    "SoundID": 0,
-                                    "SoundSubtitle": 0,
-                                    "DialogueID": 0,
-                                    "FogSetting": 0,
-                                    "FogTransitionDuration": 0.0,
-                                    "EnemyWaveData": {
-                                        "WaveSettings": 0,
-                                        "WavePopulation": 0,
-                                        "AreaDistance": 2,
-                                        "SpawnDelay": 0.0,
-                                        "TriggerAlarm": false,
-                                        "IntelMessage": 0
-                                    },
-                                    "EnemyID": 0,
-                                    "Position": {
-                                        "x": 0.0,
-                                        "y": 0.0,
-                                        "z": 0.0,
-                                        "magnitude": 0.0,
-                                        "sqrMagnitude": 0.0
-                                    },
-                                    "Count": 0,
-                                    "Enabled": false,
-                                    "TerminalCommand": 0,
-                                    "TerminalCommandRule": 0
                                 }
+
                             ],
                             "SpecialCommandRule": 2
                         }

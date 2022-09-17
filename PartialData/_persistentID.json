@@ -15,5 +15,10 @@
 	{ "GUID": "Obj-Test", "ID": 65533 },
 	{ "GUID": "Obj-Test-2", "ID": 65532 },
 	{ "GUID": "STP", "ID": 65535 },
-	{ "GUID": "DefaultPop", "ID": 65534 }
+	{ "GUID": "DefaultPop", "ID": 65534 },
+	{ "GUID": "T1-Target0-Header", "ID": 4294967295 },
+	{ "GUID": "T1-Target0-Detail", "ID": 4294967294 },
+	{ "GUID": "T1-Target1-Header", "ID": 4294967293 },
+	{ "GUID": "T1-Target2-Header", "ID": 4294967291 },
+	{ "GUID": "T1-Target2-Detail", "ID": 4294967290 }
 ]

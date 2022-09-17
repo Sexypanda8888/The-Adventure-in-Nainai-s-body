@@ -21,7 +21,52 @@
     "GoToWinConditionHelp_ToMainLayer": 0,
     "ShowHelpDelay": 180.0,
     "WavesOnElevatorLand": [],
-    "EventsOnElevatorLand": [],
+    "EventsOnElevatorLand": [
+        {
+            "Type": 11,
+            "Condition": {
+                "ConditionIndex": -1,
+                "IsTrue": false
+            },
+            "Trigger": 0,
+            "ChainPuzzle": 0,
+            "UseStaticBioscanPoints": false,
+            "Layer": 0,
+            "DimensionIndex": 0,
+            "LocalIndex": 0,
+            "Delay": 2.0,
+            "Duration": 0.0,
+            "ClearDimension": false,
+            "WardenIntel": "妈的，烂裤裆！",
+            "CustomSubObjectiveHeader": "T1-Target0-Header",
+            "CustomSubObjective": "T1-Target0-Detail",
+            "SoundID": 0,
+            "SoundSubtitle": 0,
+            "DialogueID": 0,
+            "FogSetting": 0,
+            "FogTransitionDuration": 0.0,
+            "EnemyWaveData": {
+                "WaveSettings": 0,
+                "WavePopulation": 0,
+                "AreaDistance": 2,
+                "SpawnDelay": 0.0,
+                "TriggerAlarm": false,
+                "IntelMessage": 0
+            },
+            "EnemyID": 0,
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "magnitude": 0.0,
+                "sqrMagnitude": 0.0
+            },
+            "Count": 0,
+            "Enabled": false,
+            "TerminalCommand": 0,
+            "TerminalCommandRule": 0
+        }
+    ],
     "WaveOnElevatorWardenIntel": 0,
     "FogTransitionDataOnElevatorLand": 0,
     "FogTransitionDurationOnElevatorLand": 0.0,
