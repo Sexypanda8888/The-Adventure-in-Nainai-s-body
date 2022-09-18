@@ -1,13 +1,13 @@
 [
     {
         "m_pauseBeforeStart": 3.0,
-        "m_pauseBetweenGroups": 5.0,
+        "m_pauseBetweenGroups": 10.0,
         "m_wavePauseMin_atCost": 3.0,
-        "m_wavePauseMax_atCost": 10.0,
-        "m_wavePauseMin": 3.0,
-        "m_wavePauseMax": 30.0,
+        "m_wavePauseMax_atCost": 5.0,  //10的时候6只麻瓜
+        "m_wavePauseMin": 10.0,
+        "m_wavePauseMax": 20.0,
         "m_populationFilter": [
-          0
+          1
         ],
         "m_filterType": 0,
         "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
@@ -15,11 +15,11 @@
         "m_overrideWaveSpawnType": false,
         "m_survivalWaveSpawnType": 0,
         "m_populationPointsTotal": -1.0,
-        "m_populationPointsPerWaveStart": 17.0,
-        "m_populationPointsPerWaveEnd": 25.0,
-        "m_populationPointsMinPerGroup": 5.0,
-        "m_populationPointsPerGroupStart": 5.0,
-        "m_populationPointsPerGroupEnd": 10.0,
+        "m_populationPointsPerWaveStart": 10.0,
+        "m_populationPointsPerWaveEnd": 12.0,
+        "m_populationPointsMinPerGroup": 1.0,
+        "m_populationPointsPerGroupStart": 1.0,
+        "m_populationPointsPerGroupEnd": 1.0,
         "m_populationRampOverTime": 200.0,
         "name": "Apex",
         "internalEnabled": true,

@@ -189,7 +189,7 @@
               "PlacementCount": 1,
               "ZonePlacementData": []
             },
-            "ChainedPuzzleToEnter": 0,
+            "ChainedPuzzleToEnter": "ChainedPuzzle-Test",
             "IsCheckpointDoor": false,
             "PlayScannerVoiceAudio": true,
             "SkipAutomaticProgressionObjective": false,
@@ -380,7 +380,67 @@
                 "AreaSeedOffset": 8,
                 "MarkerSeedOffset": 5,
                 "LocalLogFiles": [],
-                "UniqueCommands": [],
+                "UniqueCommands": [
+                    {
+                        "Command": "teleport",
+                        "CommandDesc": "Download local extension of genome database",
+                        "PostCommandOutputs": [
+                          {
+                            "LineType": 2,
+                            "Output": 0,
+                            "Time": 5.0
+                          }
+                        ],
+                        "CommandEvents": [
+                          {
+                            "Type": 8,
+                            "Condition": {
+                              "ConditionIndex": -1,
+                              "IsTrue": false
+                            },
+                            "Trigger": 1,
+                            "ChainPuzzle": 0,
+                            "UseStaticBioscanPoints": false,
+                            "Layer": 0,
+                            "DimensionIndex": 1,
+                            "LocalIndex": 0,
+                            "Delay": 2.0,
+                            "Duration": 0.0,
+                            "ClearDimension": true,
+                            "WardenIntel": 0,
+                            "CustomSubObjectiveHeader": 0,
+                            "CustomSubObjective": 0,
+                            "SoundID": 0,
+                            "SoundSubtitle": 0,
+                            "DialogueID": 0,
+                            "FogSetting": 0,
+                            "FogTransitionDuration": 0.0,
+                            "EnemyWaveData": {
+                              "WaveSettings": 0,
+                              "WavePopulation": 0,
+                              "AreaDistance": 2,
+                              "SpawnDelay": 0.0,
+                              "TriggerAlarm": false,
+                              "IntelMessage": 0
+                            },
+                            "EnemyID": 0,
+                            "Position": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "magnitude": 0.0,
+                              "sqrMagnitude": 0.0
+                            },
+                            "Count": 0,
+                            "Enabled": false,
+                            "TerminalCommand": 0,
+                            "TerminalCommandRule": 0
+                          }
+
+                        ],
+                        "SpecialCommandRule": 0
+                      }
+                ],
                 "StartingStateData": {
                   "StartingState": 0,
                   "UseCustomInfoText": false,

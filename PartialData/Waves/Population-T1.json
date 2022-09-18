@@ -1,9 +1,9 @@
 [
     {
         "WaveRoleWeakling": 11,
-        "WaveRoleStandard": 11,
+        "WaveRoleStandard": 29,
         "WaveRoleSpecial": 11,
-        "WaveRoleMiniBoss": 11,
+        "WaveRoleMiniBoss": 29,
         "WaveRoleBoss": 11,
         "name": "第一个警报，小姐+大姐",
         "internalEnabled": true,

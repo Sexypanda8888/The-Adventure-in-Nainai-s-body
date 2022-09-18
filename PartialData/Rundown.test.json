@@ -304,7 +304,7 @@
                 "BulkheadKeyPlacements": [],
                 "ObjectiveData": {
                     "DataBlockId": "Obj-Test-2",
-                    "WinCondition": 0,
+                    "WinCondition": 1,
                     "ZonePlacementDatas": [
                         [
                             {
@@ -370,7 +370,13 @@
                     "ArtifactZoneDistributions": []
                 }
             },
-            "DimensionDatas": [],
+            "DimensionDatas": [
+                {
+                    "DimensionIndex": 1,
+                    "DimensionData": "Test-DM",
+                    "Enabled": true
+                }
+            ],
             "SoundEventOnWarpToReality": 0,
             "SpecialOverrideData": {
                 "WeakResourceContainerWithPackChanceForLocked": -1.0,

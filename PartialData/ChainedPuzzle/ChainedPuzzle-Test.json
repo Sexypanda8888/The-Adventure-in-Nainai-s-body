@@ -1,0 +1,31 @@
+[
+    {
+        "PublicAlarmName": "Class III Scan",
+        "TriggerAlarmOnActivate": true,
+        "SurvivalWaveSettings": "Wave-T1-SmallShooterOnly",
+        "SurvivalWavePopulation": "Population-T1-1",
+        "SurvivalWaveAreaDistance": 2,
+        "DisableSurvivalWaveOnComplete": false,
+        "UseRandomPositions": true,
+        "WantedDistanceFromStartPos": 20.0,
+        "WantedDistanceBetweenPuzzleComponents": 20.0,
+        "ChainedPuzzle": [
+        {
+            "PuzzleType": 4
+        },
+        {
+            "PuzzleType": 4
+        },
+        {
+            "PuzzleType": 4
+        }
+        ],
+        "OnlyShowHUDWhenPlayerIsClose": false,
+        "AlarmSoundStart": 3339129407,
+        "AlarmSoundStop": 42633153,
+        "name": "Small Cluster x3 - Alarm",
+        "internalEnabled": true,
+        "persistentID": "ChainedPuzzle-Test",
+        "datablock": "ChainedPuzzle"
+    }
+]

@@ -1,5 +1,7 @@
 [
 	//AUTO-GENERATED PERSISTENT ID LIST
+	{ "GUID": "ChainedPuzzle-Test", "ID": 65535 },
+	{ "GUID": "Test-DM", "ID": 65535 },
 	{ "GUID": "Spot-1", "ID": 65535 },
 	{ "GUID": "Spot-2", "ID": 65534 },
 	{ "GUID": "Spot-3", "ID": 65533 },
