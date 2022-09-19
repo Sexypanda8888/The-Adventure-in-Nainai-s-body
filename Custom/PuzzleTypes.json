@@ -1,0 +1,80 @@
+//点17 1s 1 说明时间=1/mul
+//蓝色blue 0.5
+//mode 4 是离开点  mode 5是正在踩点
+{
+    "Scans": [
+        {
+            "name": "T1-FirstArena",
+            "BaseScan": 17,
+            "PersistentID": 1000,
+            "PlayerRequirement": 1,
+            "ScanRadius": 38.0,
+            "ScanProgression": 0.0,
+            "PlayersInScanMulti": [
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            "ReduceSpeed": 0.0006,
+            "ReduceWhenNoPlayer": true,
+            "ScanSpeedDecline": 0.0,
+            "BioScanGraphics": {
+                //"ScanText": "<color=white><size=70>傻逼奶奶</size></color>",
+                "ScanText": "abcdefghijklmnopqrstuvwxyz0123456789",
+                "Radius": 38.0, // 401c44
+                "colorModeColor": [
+                    // TODO： change color to purple
+                    {
+                        "mode": 1,
+                        "r": 0,
+                        "g": 1,
+                        "b": 0,
+                        "a": 1
+                    },
+                    {
+                        "mode": 2,
+                        "r": 0,
+                        "g": 1,
+                        "b": 0,
+                        "a": 1
+                    },
+                    {
+                        "mode": 4,
+                        "r": 0,
+                        "g": 0,
+                        "b": 0.5,
+                        "a": 1
+                    },
+                    {
+                        "mode": 5,
+                        "r": 0.7509,
+                        "g": 0.1098,
+                        "b": 0.266,
+                        "a": 1.0
+                    }
+                ]
+            }
+        }
+    ],
+    "Clusters": [
+        {
+            "Name": "2-Cluster_dual",
+            "BaseCluster": 16,
+            "PersistentID": 101,
+            "ClusterCount": 2,
+            "BioscanID": 100,
+            "DistanceBetweenScans": 20.0,
+            "RevealWithHoloPath": true
+        },
+        {
+            "Name": "2-Cluster_dual_Big",
+            "BaseCluster": 16,
+            "PersistentID": 103,
+            "ClusterCount": 2,
+            "BioscanID": 102,
+            "DistanceBetweenScans": 20.0,
+            "RevealWithHoloPath": true
+        }
+    ]
+}

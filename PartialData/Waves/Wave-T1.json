@@ -1,9 +1,9 @@
 [
-    {
+    {   //想要一组出三四只小菜花
         "m_pauseBeforeStart": 3.0,
         "m_pauseBetweenGroups": 10.0,
         "m_wavePauseMin_atCost": 3.0,
-        "m_wavePauseMax_atCost": 5.0,  //10的时候6只麻瓜
+        "m_wavePauseMax_atCost": 5.0,  
         "m_wavePauseMin": 10.0,
         "m_wavePauseMax": 20.0,
         "m_populationFilter": [
@@ -24,7 +24,7 @@
         "name": "Apex",
         "internalEnabled": true,
         "persistentID": "Wave-T1-SmallShooterOnly",
-        "datablock": "SurvivalWaveSettings"
+        "datablock": "SurvivalWaveSettings"       
       },
       {
         "m_pauseBeforeStart": 3.0,
