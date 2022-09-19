@@ -8,7 +8,7 @@
     "ZoneOverrides": [
       {
           "LocalIndex": 1, //Local Index for zone
-          "OverrideGeomorphs": true, //Override Geomorphs?
+          "OverrideGeomorphs": false, //Override Geomorphs?
           "Geomorphs": [
             //first
             {

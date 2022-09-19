@@ -10,11 +10,10 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 4,
-            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_02_V2.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
-              "x": 3.0,
-              "y": 3.0,
+              "x": 32.0,
+              "y": 32.0,
               "normalized": {
                 "x": 0.613940656,
                 "y": 0.789352238,
@@ -152,7 +151,7 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 4,
-            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_Lab_dead_end_room_02.prefab",
+            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_portal_HA_03.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
               "x": 3.0,
@@ -166,7 +165,7 @@
               "magnitude": 57.00877,
               "sqrMagnitude": 3250.0
             },
-            "BuildFromLocalIndex": 1,
+            "BuildFromLocalIndex": 0,
             "StartPosition": 3,
             "StartPosition_IndexWeight": 0.0,
             "StartExpansion": 3,
@@ -294,7 +293,7 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 4,
-            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_32x32_lab_exit_01.prefab",
+            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_portal_HA_03.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
               "x": 3.0,
@@ -308,11 +307,11 @@
               "magnitude": 57.00877,
               "sqrMagnitude": 3250.0
             },
-            "BuildFromLocalIndex": 1,
-            "StartPosition": 3,
+            "BuildFromLocalIndex": 0,
+            "StartPosition": 0,
             "StartPosition_IndexWeight": 0.0,
-            "StartExpansion": 3,
-            "ZoneExpansion": 5,
+            "StartExpansion": 0,
+            "ZoneExpansion": 0,
             "LightSettings": 55,
             "AltitudeData": {
               "AllowedZoneAltitude": 9,
@@ -369,7 +368,7 @@
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
             "ConsumableDistributionInZone": 0,
-            "BigPickupDistributionInZone": 0,
+            "BigPickupDistributionInZone": 10,
             "TerminalPlacements": [
               {
                 "PlacementWeights": {
@@ -461,19 +460,19 @@
             "ForbidTerminalsInZone": false,
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
-            "HealthMulti": 1.0,
+            "HealthMulti": 0.0,
             "HealthPlacement": {
               "Start": 0.0,
               "Middle": 0.0,
               "End": 0.0
             },
-            "WeaponAmmoMulti": 3.0,
+            "WeaponAmmoMulti": 0.0,
             "WeaponAmmoPlacement": {
               "Start": 0.0,
               "Middle": 0.0,
               "End": 0.0
             },
-            "ToolAmmoMulti": 1.0,
+            "ToolAmmoMulti": 0.0,
             "ToolAmmoPlacement": {
               "Start": 0.0,
               "Middle": 0.0,

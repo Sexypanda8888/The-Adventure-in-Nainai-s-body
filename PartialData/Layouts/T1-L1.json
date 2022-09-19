@@ -6,7 +6,7 @@
             "AliasOverride": -1,
             "OverrideAliasPrefix": false,
             "SubSeed": 1234,
-            "MarkerSubSeed": 1234,
+            "MarkerSubSeed": 234856123,
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 4,
@@ -328,7 +328,6 @@
                                     "TerminalCommand": 0,
                                     "TerminalCommandRule": 0
                                 }
-
                             ],
                             "SpecialCommandRule": 2
                         }
@@ -753,6 +752,7 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 5,
+            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_portal_HA_03.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
                 "x": 3.0,
@@ -824,7 +824,7 @@
             "DeconUnitsInZone": 0,
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
-            "ForceBigPickupsAllocation": false,
+            "ForceBigPickupsAllocation": true,
             "ConsumableDistributionInZone": 0,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [],
