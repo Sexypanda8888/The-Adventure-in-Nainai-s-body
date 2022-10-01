@@ -24,7 +24,6 @@
                 "ScanText": "abcdefghijklmnopqrstuvwxyz0123456789",
                 "Radius": 38.0, // 401c44
                 "colorModeColor": [
-                    // TODO： change color to purple
                     {
                         "mode": 1,
                         "r": 0,

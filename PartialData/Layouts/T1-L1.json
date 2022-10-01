@@ -1,6 +1,8 @@
 {
     "ZoneAliasStart": 88,
     "Zones": [
+        //TODO: 需要在第一个打开的门那边多加一个小区用于周旋踩点
+        //在一定时间过去后停止刷怪是一系列事件种
         {
             "LocalIndex": 0,
             "AliasOverride": -1,
@@ -197,94 +199,6 @@
                                     "TerminalCommandRule": 0
                                 },
                                 {
-                                    "Type": 1,
-                                    "Condition": {
-                                        "ConditionIndex": -1,
-                                        "IsTrue": false
-                                    },
-                                    "Trigger": 1,
-                                    "ChainPuzzle": 0, //100
-                                    "UseStaticBioscanPoints": false,
-                                    "Layer": 0,
-                                    "DimensionIndex": 0,
-                                    "LocalIndex": 2,
-                                    "Delay": 60.0,
-                                    "Duration": 0.0,
-                                    "ClearDimension": false,
-                                    "WardenIntel": 0,
-                                    "CustomSubObjectiveHeader": 0,
-                                    "CustomSubObjective": 0,
-                                    "SoundID": 0,
-                                    "SoundSubtitle": 0,
-                                    "DialogueID": 0,
-                                    "FogSetting": 0,
-                                    "FogTransitionDuration": 0.0,
-                                    "EnemyWaveData": {
-                                        "WaveSettings": 0,
-                                        "WavePopulation": 0,
-                                        "AreaDistance": 2,
-                                        "SpawnDelay": 0.0,
-                                        "TriggerAlarm": false,
-                                        "IntelMessage": 0
-                                    },
-                                    "EnemyID": 0,
-                                    "Position": {
-                                        "x": 0.0,
-                                        "y": 0.0,
-                                        "z": 0.0,
-                                        "magnitude": 0.0,
-                                        "sqrMagnitude": 0.0
-                                    },
-                                    "Count": 0,
-                                    "Enabled": false,
-                                    "TerminalCommand": 0,
-                                    "TerminalCommandRule": 0
-                                },
-                                {
-                                    "Type": 11,
-                                    "Condition": {
-                                        "ConditionIndex": -1,
-                                        "IsTrue": false
-                                    },
-                                    "Trigger": 3,
-                                    "ChainPuzzle": 0,
-                                    "UseStaticBioscanPoints": false,
-                                    "Layer": 0,
-                                    "DimensionIndex": 0,
-                                    "LocalIndex": 0,
-                                    "Delay": 60.0,
-                                    "Duration": 0.0,
-                                    "ClearDimension": false,
-                                    "WardenIntel": "又来了...",
-                                    "CustomSubObjectiveHeader":0,
-                                    "CustomSubObjective":0,
-                                    "SoundID": 0,
-                                    "SoundSubtitle": 0,
-                                    "DialogueID": 0,
-                                    "FogSetting": 0,
-                                    "FogTransitionDuration": 0.0,
-                                    "EnemyWaveData": {
-                                        "WaveSettings": 0,
-                                        "WavePopulation": 0,
-                                        "AreaDistance": 2,
-                                        "SpawnDelay": 0.0,
-                                        "TriggerAlarm": false,
-                                        "IntelMessage": 0
-                                    },
-                                    "EnemyID": 0,
-                                    "Position": {
-                                        "x": 0.0,
-                                        "y": 0.0,
-                                        "z": 0.0,
-                                        "magnitude": 0.0,
-                                        "sqrMagnitude": 0.0
-                                    },
-                                    "Count": 0,
-                                    "Enabled": false,
-                                    "TerminalCommand": 0,
-                                    "TerminalCommandRule": 0
-                                },
-                                {
                                     "Type": 2,
                                     "Condition": {
                                         "ConditionIndex": -1,
@@ -302,6 +216,52 @@
                                     "WardenIntel": 0,
                                     "CustomSubObjectiveHeader": 0,
                                     "CustomSubObjective": 0,
+                                    "SoundID": 0,
+                                    "SoundSubtitle": 0,
+                                    "DialogueID": 0,
+                                    "FogSetting": 0,
+                                    "FogTransitionDuration": 0.0,
+                                    "EnemyWaveData": {
+                                        "WaveSettings": 0,
+                                        "WavePopulation": 0,
+                                        "AreaDistance": 2,
+                                        "SpawnDelay": 0.0,
+                                        "TriggerAlarm": false,
+                                        "IntelMessage": 0
+                                    },
+                                    "EnemyID": 0,
+                                    "Position": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "magnitude": 0.0,
+                                        "sqrMagnitude": 0.0
+                                    },
+                                    "Count": 0,
+                                    "Enabled": false,
+                                    "TerminalCommand": 0,
+                                    "TerminalCommandRule": 0
+                                },
+                                //在踩点结束后停止所有的警报
+                                {
+                                   
+                                    "Type": 11,
+                                    "Condition": {
+                                        "ConditionIndex": -1,
+                                        "IsTrue": false
+                                    },
+                                    "Trigger": 0,
+                                    "ChainPuzzle": 0,
+                                    "UseStaticBioscanPoints": false,
+                                    "Layer": 0,
+                                    "DimensionIndex": 0,
+                                    "LocalIndex": 0,
+                                    "Delay": 0.0,
+                                    "Duration": 0.0,
+                                    "ClearDimension": false,
+                                    "WardenIntel": "有危险的感觉",
+                                    "CustomSubObjectiveHeader": "T1-Target0-Header",
+                                    "CustomSubObjective": "T1-Target0-Detail",
                                     "SoundID": 0,
                                     "SoundSubtitle": 0,
                                     "DialogueID": 0,
@@ -387,7 +347,7 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 4,
-            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_dead_end_HA_03_R7E1_02.prefab",
+            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_I_HA_03.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
                 "x": 5.0,
@@ -416,6 +376,7 @@
             "EventsOnApproachDoor": [],
             "EventsOnUnlockDoor": [],
             "EventsOnOpenDoor": [
+                /*
                 {
                     "Type": 16,
                     "Condition": {
@@ -461,6 +422,7 @@
                     "TerminalCommandRule": 0,
                     "WorldEventObjectFilter": "TankSpawner1"
                 }
+                */
             ],
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
@@ -519,6 +481,257 @@
                 "End": 0.0
             },
             "WeaponAmmoMulti": 0.0,
+            "WeaponAmmoPlacement": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 0.0
+            },
+            "ToolAmmoMulti": 0.0,
+            "ToolAmmoPlacement": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 0.0
+            },
+            "DisinfectionMulti": 0.0,
+            "DisinfectionPlacement": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 0.0
+            },
+            "StaticSpawnDataContainers": []
+        },
+        {
+            "LocalIndex": 100,
+            "AliasOverride": -1,
+            "OverrideAliasPrefix": false,
+            "SubSeed": 0,
+            "MarkerSubSeed": 0,
+            "LightsSubSeed": 0,
+            "BulkheadDCScanSeed": 0,
+            "SubComplex": 4,
+            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_dead_end_HA_03_R7E1_02.prefab",
+            "IgnoreRandomGeomorphRotation": false,
+            "CoverageMinMax": {
+                "x": 5.0,
+                "y": 10.0,
+                "normalized": {
+                    "x": 0.4472136,
+                    "y": 0.8944272,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                },
+                "magnitude": 11.18034,
+                "sqrMagnitude": 125.0
+            },
+            "BuildFromLocalIndex": 1,
+            "StartPosition": 0,
+            "StartPosition_IndexWeight": 0.0,
+            "StartExpansion": 3,
+            "ZoneExpansion": 0,
+            "LightSettings": 23,
+            "AltitudeData": {
+                "AllowedZoneAltitude": 9,
+                "ChanceToChange": 0.5
+            },
+            "EventsOnEnter": [],
+            "EventsOnPortalWarp": [],
+            "EventsOnApproachDoor": [],
+            "EventsOnUnlockDoor": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 16,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 46,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 2,
+                    "Enabled": true,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0,
+                    "WorldEventObjectFilter": "TankSpawner1"
+                },
+                {   //用于如果开门后过了一段时间没有成功踩完点，就要出女皇
+                    //TODO： 调整delay
+                    "Type": 9,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 180.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 37,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": true,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0,
+                    "WorldEventObjectFilter": "TankSpawner1"
+                },
+                {
+                    //开了这个门过一段时间就会出
+                    "Type": 1,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 1,
+                    "ChainPuzzle": 0, //100
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 2,
+                    "Delay": 60.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0
+                }
+            ],
+            "EventsOnDoorScanStart": [],
+            "EventsOnDoorScanDone": [],
+            "ProgressionPuzzleToEnter": {
+                "PuzzleType": 0,
+                "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+                "PlacementCount": 1,
+                "ZonePlacementData": []
+            },
+            "ChainedPuzzleToEnter": 0,
+            "IsCheckpointDoor": false,
+            "PlayScannerVoiceAudio": true,
+            "SkipAutomaticProgressionObjective": false,
+            "SecurityGateToEnter": 0,
+            "UseStaticBioscanPointsInZone": false,
+            "TurnOffAlarmOnTerminal": false,
+            "TerminalPuzzleZone": {
+                "LocalIndex": 0,
+                "SeedType": 1,
+                "TerminalIndex": 0,
+                "StaticSeed": 0
+            },
+            "EventsOnTerminalDeactivateAlarm": [],
+            "ActiveEnemyWave": {
+                "HasActiveEnemyWave": false,
+                "EnemyGroupInfrontOfDoor": 0,
+                "EnemyGroupInArea": 0,
+                "EnemyGroupsInArea": 0
+            },
+            "EnemyRespawning": false,
+            "EnemyRespawnRequireOtherZone": true,
+            "EnemyRespawnRoomDistance": 2,
+            "EnemyRespawnTimeInterval": 10.0,
+            "EnemyRespawnCountMultiplier": 1.0,
+            "HSUClustersInZone": 0,
+            "CorpseClustersInZone": 0,
+            "ResourceContainerClustersInZone": 0,
+            "GeneratorClustersInZone": 0,
+            "CorpsesInZone": 0,
+            "GroundSpawnersInZone": 3,
+            "HSUsInZone": 0,
+            "DeconUnitsInZone": 0,
+            "AllowSmallPickupsAllocation": true,
+            "AllowResourceContainerAllocation": true,
+            "ForceBigPickupsAllocation": false,
+            "ConsumableDistributionInZone": 0,
+            "BigPickupDistributionInZone": 0,
+            "TerminalPlacements": [],
+            "ForbidTerminalsInZone": true,
+            "PowerGeneratorPlacements": [],
+            "DisinfectionStationPlacements": [],
+            "HealthMulti": 0.0,
+            "HealthPlacement": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 0.0
+            },
+            "WeaponAmmoMulti": 10.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -780,12 +993,57 @@
             "EventsOnPortalWarp": [],
             "EventsOnApproachDoor": [],
             "EventsOnUnlockDoor": [],
-            "EventsOnOpenDoor": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 9,
+                    "Condition": {
+                      "ConditionIndex": -1,
+                      "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": 0,
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                    "WaveSettings": "Wave-T1-OnePile",
+                    "WavePopulation": "Pop-T1-Baby",
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": "看看你的"
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "magnitude": 0.0,
+                      "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0
+                  }
+            ],
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 3,
-                "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+                "CustomText": "门上面写着：奶奶是最棒的！",
                 "PlacementCount": 1,
                 "ZonePlacementData": []
             },
@@ -809,6 +1067,26 @@
                 "EnemyGroupInArea": 0,
                 "EnemyGroupsInArea": 0
             },
+            "EnemySpawningInZone": [
+                {
+                    "GroupType": 1,
+                    "Difficulty": 81,
+                    "Distribution": 1,
+                    "DistributionValue": 1.0
+                },
+                {
+                    "GroupType": 1,
+                    "Difficulty": 81,
+                    "Distribution": 1,
+                    "DistributionValue": 1.0
+                },
+                {
+                    "GroupType": 1,
+                    "Difficulty": 81,
+                    "Distribution": 1,
+                    "DistributionValue": 1.0
+                }
+            ],
             "EnemyRespawning": false,
             "EnemyRespawnRequireOtherZone": true,
             "EnemyRespawnRoomDistance": 2,
@@ -895,14 +1173,59 @@
             "EventsOnUnlockDoor": [],
             "EventsOnOpenDoor": [],
             "EventsOnDoorScanStart": [],
-            "EventsOnDoorScanDone": [],
+            "EventsOnDoorScanDone": [
+                {
+                    "Type": 10,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": "危险危险危险！",
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 0,
+                    "FogTransitionDuration": 0.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0
+                }
+            ],
             "ProgressionPuzzleToEnter": {
-                "PuzzleType": 3,
+                "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
                 "PlacementCount": 1,
                 "ZonePlacementData": []
             },
-            "ChainedPuzzleToEnter": 0,
+            "ChainedPuzzleToEnter": 4,
             "IsCheckpointDoor": true,
             "PlayScannerVoiceAudio": true,
             "SkipAutomaticProgressionObjective": false,

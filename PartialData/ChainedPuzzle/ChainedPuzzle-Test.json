@@ -3,19 +3,13 @@
         "PublicAlarmName": "Class III Scan",
         "TriggerAlarmOnActivate": true,
         "SurvivalWaveSettings": "Wave-T1-SmallShooterOnly",
-        "SurvivalWavePopulation": "Population-T1-1",
+        "SurvivalWavePopulation": "Pop-T1-1",
         "SurvivalWaveAreaDistance": 2,
         "DisableSurvivalWaveOnComplete": false,
         "UseRandomPositions": true,
         "WantedDistanceFromStartPos": 20.0,
         "WantedDistanceBetweenPuzzleComponents": 20.0,
         "ChainedPuzzle": [
-        {
-            "PuzzleType": 4
-        },
-        {
-            "PuzzleType": 4
-        },
         {
             "PuzzleType": 4
         }

@@ -1,13 +1,35 @@
 [
     {
         "WaveRoleWeakling": 11,
-        "WaveRoleStandard": 29,
+        "WaveRoleStandard": 11,
         "WaveRoleSpecial": 11,
-        "WaveRoleMiniBoss": 29,
+        "WaveRoleMiniBoss": 18,
         "WaveRoleBoss": 11,
         "name": "第一个警报，小姐+大姐",
         "internalEnabled": true,
-        "persistentID": "Population-T1-1",
+        "persistentID": "Pop-T1-1",
+        "datablock": "SurvivalWavePopulation"
+    },
+    {
+        "WaveRoleWeakling": 11,
+        "WaveRoleStandard": 29,
+        "WaveRoleSpecial": 11,
+        "WaveRoleMiniBoss": 18,
+        "WaveRoleBoss": 11,
+        "name": "s",
+        "internalEnabled": true,
+        "persistentID": "testR",
+        "datablock": "SurvivalWavePopulation"
+    },
+    {
+        "WaveRoleWeakling": 38,
+        "WaveRoleStandard": 38,
+        "WaveRoleSpecial": 38,
+        "WaveRoleMiniBoss": 38,
+        "WaveRoleBoss": 38,
+        "name": "baby",
+        "internalEnabled": true,
+        "persistentID": "Pop-T1-Baby",
         "datablock": "SurvivalWavePopulation"
     }
 ]

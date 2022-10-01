@@ -62,21 +62,10 @@
             "LocalIndex": 4, //Local Index for zone
             "OverrideGeomorphs": true, //Override Geomorphs?
             "Geomorphs": [
-              //first
               {
                 "Geomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_destroyed_HA_01.prefab",
                 "Direction": "Forward" //Unchanged, Random, Forward, Backward, Left, Right 
               }
-            //   {
-            //     "Geomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_hub_HA_02.prefab",
-            //     "Direction": "Forward"
-            //   }
-              //second
-              // {
-              //   "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
-              //   "Direction": "Random" //Unchanged, Random, Forward, Backward, Left, Right 
-              // }
-              //if still needed, it will return to first one and repeat...
             ],
             "OverridePlugs": false, //Override Plug transition?
             "Plugs": [
@@ -87,6 +76,27 @@
             ],
             "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
             "PlugWithNoGatechance": 1.0
+        },
+        {
+            
+            "LocalIndex": 100, //Local Index for zone
+            "OverrideGeomorphs": false, //Override Geomorphs?
+            "Geomorphs": [
+                {
+                "Geomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_vault_v3_HA_01.prefab",
+                "Direction": "Unchanged" //Unchanged, Random, Forward, Backward, Left, Right 
+                }
+            ],
+            "OverridePlugs": false, //Override Plug transition?
+            "Plugs": [
+            ],
+            "OverrideAltitudes": false, //Override Altitude?
+            "Altitudes": [
+                0
+            ],
+            "OverridePlugWithNoGateChance": false, //Override chance of spawning "no gate" plugs within this zone?
+            "PlugWithNoGatechance": 1.0
+            
         }
       
     ]

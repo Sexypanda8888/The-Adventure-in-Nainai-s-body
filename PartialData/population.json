@@ -49,6 +49,14 @@
             "Cost": 1.0,
             "Weight": 1.0,
             "name": "tank"
+        },
+        {
+            "Role": 5,
+            "Difficulty": 81,
+            "Enemy": 41,
+            "Cost": 1.0,
+            "Weight": 1.0,
+            "name": "scout"
         }
     ],
     "name": "Spots-Test-Population",
