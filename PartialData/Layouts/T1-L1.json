@@ -1,8 +1,14 @@
 {
     "ZoneAliasStart": 88,
     "Zones": [
-        //TODO: 需要在第一个打开的门那边多加一个小区用于周旋踩点
-        //在一定时间过去后停止刷怪是一系列事件种
+        //TODO： 在第一个点如果不去踩那个门会发生可怕的事情
+        //死局：崽子surge(两人踩点是四人速度的一半，长期维持小姐wave,四人在90%的时候不开门会崽子surge，两人速度拖到80%会出现女皇，四人如果有人倒了过长也会出现女皇（在崽子surge之后delay激活女皇wave）) 
+        //踩完门以后会关掉当前所有Wave（用于清除崽子wave）并产生正常Wave
+        //奶奶的淫虫，巨型淫虫母兽，淫兽,巨型淫兽。代表着奶奶的欲望。
+        //呸，一股淫靡的气息
+        //来到奶奶身体最深处！哎呀这不是
+        //粉色灯光，这里都被淫靡的气息覆盖了。异化，带好面具
+        //后面传送过程中就是要全员满毒。
         {
             "LocalIndex": 0,
             "AliasOverride": -1,
@@ -100,7 +106,7 @@
                     "LocalLogFiles": [],
                     "UniqueCommands": [
                         {
-                            "Command": "Override_Initialization",
+                            "Command": "Override",
                             "CommandDesc": "强行初始化环境",
                             "PostCommandOutputs": [
                                 {

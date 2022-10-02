@@ -3,18 +3,19 @@
 //mode 4 是离开点  mode 5是正在踩点
 {
     "Scans": [
-        {
+        {   //非全队点，两人以上开始进步，
+
             "name": "T1-FirstArena",
-            "BaseScan": 17,
+            "BaseScan": 2,
             "PersistentID": 1000,
-            "PlayerRequirement": 1,
+            "PlayerRequirement": 0,
             "ScanRadius": 38.0,
             "ScanProgression": 0.0,
             "PlayersInScanMulti": [
-                0.1,
-                0.1,
-                0.1,
-                0.1
+                0.0,
+                0.00417,
+                0.00417,
+                0.00833
             ],
             "ReduceSpeed": 0.0006,
             "ReduceWhenNoPlayer": true,
